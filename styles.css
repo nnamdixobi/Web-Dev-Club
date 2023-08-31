@@ -1,0 +1,65 @@
+/* Styling for the entire webpage's body */
+body {
+    font-family: Arial, sans-serif; /* Set the font family for text */
+    text-align: center; /* Center-align text within the body */
+    background-color: whitesmoke; /* Set a white background color */
+    color: whitesmoke; /* Set a white text color */
+}
+
+/* Styling for the main quiz container */
+#quiz-container {
+    max-width: 400px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #0C2340; /* Set navy blue background color */
+    padding: 20px; /* Add space inside the container */
+    border-radius: 5px; /* Round the container's corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the main quiz heading */
+h1 {
+    font-size: 24px; /* Set the font size for the heading */
+    color: #FF6F61; /* Set orange text color */
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none; /* Remove bullet points for lists */
+    padding: 0; /* Remove default padding for lists */
+}
+
+/* Styling for list items */
+li {
+    margin-bottom: 8px; /* Add space between list items */
+}
+
+/* Styling for buttons */
+button {
+    background-color: #FF6F61; /* Set orange background color */
+    color: #fff; /* Set white text color */
+    border: none; /* Remove button border */
+    padding: 8px 12px; /* Add padding inside the button */
+    cursor: pointer; /* Change cursor to a hand on hover */
+}
+
+/* Additional styles to center the button */
+#next-button {
+    display: block; /* Display the button as a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Styling for quiz answer options */
+#choices li {
+    border: 1px solid #FF6F61; /* Set orange border color */
+    border-radius: 5px; /* Round the answer option's corners */
+    padding: 8px; /* Add padding inside each answer option */
+    transition: background-color 0.3s ease; /* Smoothly transition background color */
+    cursor: pointer; /* Change cursor to a hand on hover */
+    color: #FF6F61; /* Set orange text color */
+}
+
+/* Change appearance of answer options on hover */
+#choices li:hover {
+    background-color: #FF6F61; /* Set orange background color on hover */
+    color: #fff; /* Set white text color on hover */
+}
