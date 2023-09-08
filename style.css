@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: navy;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.my-button {
+    /* Regular button styles */
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .my-button:hover {
+    /* Styles for when the button is hovered */
+    background-color: #2980b9;
+    transform: translateY(-5px); /* Move the button up by 5 pixels */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  }
+  
+  
+
+
+
