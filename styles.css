@@ -84,6 +84,35 @@ p {
     color: white; /* Text color */
 }
 
+.apod-link {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 400ms ease;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    text-decoration: none;
+}
+
+.apod-link:hover {
+  transform: translateY(-10px); /* Move the button up by 5 pixels */
+  background-color: aqua;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-align: center;
+}
+
 .footer {
     color: whitesmoke;
     padding: 20px;
