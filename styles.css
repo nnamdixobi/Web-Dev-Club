@@ -1,0 +1,90 @@
+/* Define global styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke(79, 79, 204); /* Invalid background color, consider using rgb() or a valid color code */
+    margin: 0;
+    padding: 0;
+    background-image: url('../src/background1.webp'); /* Set the background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Make sure the background image covers the entire viewport */
+}
+
+/* Define smooth scrolling behavior for the entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style the header section */
+header {
+    color: whitesmoke; /* Text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main title */
+h1 {
+    margin: 0;
+}
+
+/* Style the container for Astronomy Picture of the Day */
+.apod-container {
+    max-width: 700px;
+    max-height: fit-content;
+    margin: 0 auto;
+    color: whitesmoke; /* Text color */
+    background-color: transparent; /* Background color */
+    border: 5px solid #ccc; /* Border */
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 400ms ease; /* Smooth transition for hover effect */
+    border-color: whitesmoke; /* Border color */
+}
+
+/* Hover effect for the container */
+.apod-container:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Increase box shadow on hover */
+    transform: translateY(-10px); /* Move container up on hover */
+}
+
+/* Style the image inside the container */
+#apod-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; /* Ensure the image covers its container */
+}
+
+/* Style the title of Astronomy Picture of the Day */
+#apod-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the date of Astronomy Picture of the Day */
+#apod-date {
+    text-align: center;
+}
+
+/* Style the description of Astronomy Picture of the Day */
+#apod-description {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Style paragraphs within the page */
+p {
+    color: antiquewhite; /* Text color */
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+    .apod-container {
+        max-width: 700px; /* Adjust the container's width for smaller screens */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
