@@ -43,13 +43,17 @@ h1 {
     padding: 20px;
     transition: all 400ms ease; /* Smooth transition for hover effect */
     border-color: whitesmoke; /* Border color */
+    animation: moveUpDown 2s infinite alternate;
 }
 
-/* Hover effect for the container */
-.apod-container:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Increase box shadow on hover */
-    transform: translateY(-10px); /* Move container up on hover */
-}
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0); /* Start position */
+    }
+    100% {
+      transform: translateY(-20px); /* End position */
+    }
+  }
 
 /* Style the image inside the container */
 #apod-image {
