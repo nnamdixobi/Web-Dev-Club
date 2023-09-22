@@ -77,7 +77,13 @@ h1 {
 
 /* Style paragraphs within the page */
 p {
-    color: antiquewhite; /* Text color */
+    color: white; /* Text color */
+}
+
+.footer {
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Media query for screens with a maximum width of 600px */
